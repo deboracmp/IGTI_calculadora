@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="./css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <title>Super Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1 class="title_center">Super Calculadora v1</h1>
+    </header>
+    <main>
+        <div class="row">
+            <div class="input-fiel col s6">
+                <input autofocus type="number" id="inputA">
+                <label for="inputA">Primeiro número (a)</label>
+            </div>
+            <div class="input-fiel col s6">
+                <input type="number" id="inputB">
+                <label for="inputB">Segundo número (b)</label>
+            </div>
+        </div>
+        <h2 class="title_center">Cálculos</h2>
+        <div id="calculations"></div>
+
+        <div class="row">
+            
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input1">
+                <label for="input1">Soma de a e b</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input2">
+                <label for="input2">Subtração (a - b)</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input3">
+                <label for="input3">Subtração (b - a)</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input4">
+                <label for="input4">Multiplicação</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="text" id="input5">
+                <label for="input5">Divisão (a por b)</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="text" id="input6">
+                <label for="input6">Divisão (b por a)</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input7">
+                <label for="input7">Potência de a</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input8">
+                <label for="input8">Potência de b</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="text" id="input9">
+                <label for="input9">Divisores Inteiros de a</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="text" id="input10">
+                <label for="input10">Divisores Inteiros de b</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input11">
+                <label for="input11">Fatorial de a</label>
+            </div>
+            <div class="input-fiel col s4">
+                <input disabled type="number" id="input12">
+                <label for="input12">Fatorial de b</label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Trabalho Prático do Módulo Fundamentos do Bootcamp Online de Desenvolvedor Front-End da IGTI</p>
+    </footer>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

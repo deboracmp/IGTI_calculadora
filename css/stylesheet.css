@@ -1,0 +1,29 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
+    margin: 4rem 15rem;
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;;
+}
+
+footer {
+    margin-top: 3rem;
+}
+
+.title_center {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem;
+    color: lightseagreen;
+}
+
+.input-fiel {
+    margin-bottom: 2rem;
+}
+
